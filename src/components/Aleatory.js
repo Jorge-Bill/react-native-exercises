@@ -21,7 +21,7 @@ const MinMax = () => {
       <Text style={style.title}>
         Toque no botão para gerar um valor aleratório
       </Text>
-      <TouchableOpacity style={style.button} onPress={() => generate()}>
+      <TouchableOpacity style={style.button} onPress={generate}>
         <Text style={style.titleButton}>Gerar</Text>
       </TouchableOpacity>
       <Text style={style.text}>{value}</Text>
